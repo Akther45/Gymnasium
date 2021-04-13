@@ -1,0 +1,426 @@
+/* extra small */
+@media (max-width: 575px){
+    .navbar .navbar-brand{
+        position: static;
+        padding: 0;
+        transform: skewX(0deg);
+        background: transparent;
+    }
+    .navbar .navbar-brand img{
+        transform: skewX(0deg);
+    }
+    .navbar-toggler{
+        border: 2px solid #e23e38;
+        margin-right: 15px;
+        background: #ffffff;
+    }
+    .navbar-toggler span{
+        color: var(--cl1); 
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        background: #353535;
+        color: #ffffff;
+        transition: all linear 0.4s;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        color: #353535;
+        background: #ffffff;
+    }
+    .navbar .navbar-nav .nav-item .nav-link::after{
+        z-index: 1;
+    }
+    #banner .banner-item{
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+    #banner .bg1 .banner-text h3::after{
+        display: none;
+    }
+    #banner .bg1 .banner-text h3::before{
+        display: none;
+    }
+     #banner .bg1 .banner-text h1::after{
+        display: none;
+    }
+    #banner .bg1 .banner-text h1::before{
+        display: none;
+    }
+     #banner .bg1 .banner-text p::after{
+        display: none;
+    }
+    #banner .bg1 .banner-text p::before{
+        display: none;
+    }
+    #banner .banner-text h3{
+        font-size: 20px;
+    }
+    #banner .banner-text h1{
+        font-size: 45px;
+    }
+    #about{
+        padding: 50px;
+    }
+    #about .about-text {
+		margin-bottom: 20px;
+	}
+    #team{
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    #team .heading{
+        margin-bottom: 50px;
+    }
+    #team .team-member{
+        padding-top: 0;
+    }
+    #testimonial .testi-content{
+        padding-bottom: 10px;
+    }
+    #member{
+        padding-top: 40px;
+    }
+    #team .team-member .card .card-text{
+        padding-bottom: 10px;
+    }
+    #classes{
+        padding: 40px;
+    }
+    #classes .class-menu .nav-link{
+        padding: 0 8px;
+        line-height: 40px;
+    }
+    #classes .class-item ul li {
+	background: #f1f1f1;
+	text-align: center;
+	width: 47.63%;
+	float: left;
+	padding: 35px 0;
+	margin-right: 11px;
+	margin-bottom: 5px;
+    }
+    #brand{
+        padding-bottom: 20px;
+    }   
+    #brand .brand-item img{
+        width: 60%;
+    }
+    footer .flicker-gal{
+        margin-top: 20px;
+    }
+    footer .footer-contact ul li{
+        margin-bottom: 12px;
+    }
+    footer .footer-contact{
+        margin-top: 20px;
+    }
+     
+}
+/* extra small */
+/*  small device */
+@media(min-width: 576px) and (max-width: 767px){
+    .navbar{
+        background:rgba(53, 53, 53, 0.22);
+    }
+    .navbar .navbar-brand{
+        position: static;
+        padding: 0;
+        transform: skewX(0deg);
+        background: transparent;
+    }
+    .navbar .navbar-brand img{
+        transform: skewX(0deg);
+    }
+    .navbar-toggler{
+        margin-right: 15px;
+        background: #ffffff;
+    }
+    .navbar-toggler span{
+        color: var(--cl1); 
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        background: #353535;
+        color: #ffffff;
+        transition: all linear 0.4s;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        color: #353535;
+        background: #ffffff;
+    }
+    .navbar .navbar-nav .nav-item .nav-link::after{
+        z-index: 1;
+    }
+    #banner .banner-item{
+        padding-top: 210px;
+        padding-bottom: 120px;
+    }
+    #banner .bg1 .banner-text h3::after{
+        display: none;
+    }
+    #banner .bg1 .banner-text h3::before{
+        display: none;
+    }
+     #banner .bg1 .banner-text h1::after{
+        display: none;
+    }
+    #banner .bg1 .banner-text h1::before{
+        display: none;
+    }
+     #banner .bg1 .banner-text p::after{
+        display: none;
+    }
+    #banner .bg1 .banner-text p::before{
+        display: none;
+    }
+    #banner .banner-text h3{
+        font-size: 20px;
+    }
+    #banner .banner-text h1{
+        font-size: 45px;
+    }
+    #about{
+        padding: 50px;
+    }
+    #about .about-text {
+		margin-bottom: 20px;
+	}
+    #team{
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    #team .heading{
+        margin-bottom: 50px;
+    }
+    #team .team-member{
+        padding-top: 0;
+    }
+     #team .team-member .card .card-text{
+        padding-bottom: 10px;
+    }
+    #team .team-member .card .card-text{
+        padding-bottom: 10px;
+    }
+    #testimonial .testi-content{
+        padding-bottom: 10px;
+    }
+    #testimonial .person-details{
+        margin-left: -60px;
+    }
+    #member{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #classes{
+        padding: 40px;
+    }
+    #classes .class-menu .nav-link{
+        padding: 0 8px;
+        line-height: 40px;
+    }
+    #classes .class-item ul li {
+	width: 47.63%;
+	margin-right: 11px;
+	margin-bottom: 5px;
+    }
+    #brand{
+        padding-bottom: 20px;
+    }
+    footer .footer-contact ul li{
+        margin-bottom: 0;
+    }
+    footer .footer-contact .footer-social ul{
+        margin-top: 11px;
+    }
+    footer .footer-content{
+        padding-bottom: 10px;
+    }
+}
+/*  small device */
+/*  medium device */
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar{
+        background:rgba(53, 53, 53, 0.22);
+    }
+    .navbar .navbar-brand{
+        position: static;
+        padding: 0;
+        transform: skewX(0deg);
+        background: transparent;
+    }
+    .navbar .navbar-brand img{
+        transform: skewX(0deg);
+    }
+    .navbar-toggler{
+        margin-right: 15px;
+        background: #ffffff;
+    }
+    .navbar-toggler span{
+        color: var(--cl1); 
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        background: #353535;
+        color: #ffffff;
+        transition: all linear 0.4s;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        color: #353535;
+        background: #ffffff;
+    }
+    .navbar .navbar-nav .nav-item .nav-link::after{
+        z-index: 1;
+    }
+    #banner .banner-item{
+        padding-top: 220px;
+        padding-bottom: 130px;
+    }
+    #banner .bg1 .banner-text h3::after{
+        display: none;
+    }
+    #banner .bg1 .banner-text h3::before{
+        display: none;
+    }
+     #banner .bg1 .banner-text h1::after{
+        display: none;
+    }
+    #banner .bg1 .banner-text h1::before{
+        display: none;
+    }
+     #banner .bg1 .banner-text p::after{
+        display: none;
+    }
+    #banner .bg1 .banner-text p::before{
+        display: none;
+    }
+    #banner .banner-text h3{
+        font-size: 20px;
+    }
+    #banner .banner-text h1{
+        font-size: 45px;
+    }
+    #about{
+        padding: 40px;
+    }
+    #about .about-text {
+		margin-bottom: 20px;
+	}
+    #team{
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    #team .heading{
+        margin-bottom: 60px;
+    }
+    #team .team-member{
+        padding-top: 0;
+    }
+     #team .team-member .card .card-text{
+        padding-bottom: 10px;
+    }
+    #team .team-member .card .card-text{
+        padding-bottom: 10px;
+    }
+    #member{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #classes{
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    #classes .class-menu .nav-link{
+        padding: 0 24px;
+    }
+    #classes .class-item ul li {
+	width: 32.2%;
+	margin-right: 7px;
+	margin-bottom: 6px;
+    }
+    #brand{
+        padding-bottom: 40px;
+    } 
+    footer .twitter-feed ul li {
+        line-height: 22px;
+    }   
+    footer .flicker-gal{
+        margin-top: 20px;
+    }
+    footer .footer-content .flicker-gal ul{
+       justify-content:flex-start;
+    }
+    footer .footer-contact{
+        margin-top: 20px;
+    }
+    footer .footer-contact ul li {
+        margin-bottom: 20px;
+    }
+    footer .footer-contact ul{
+        margin-bottom: 30px;
+    }
+    footer .footer-content{
+        padding-bottom: 20px;
+    }
+}
+/*  medium device */
+/*  large device */
+@media (min-width: 992px) and (max-width: 1199px){
+    #banner .bg1 .banner-text h3::before {
+        top: 25px;
+        left: -50px;
+    }
+    #banner .bg1 .banner-text h3::after {
+        top: 24px;
+        right: -55px;
+    }
+    #banner .bg1 .banner-text h1::before {
+        height: 200px;
+        top: -19px;
+        left: -51px;
+    }
+    #banner .bg1 .banner-text h1::after {
+        height: 200px;
+        top: -20px;
+        right: -55px;
+    }
+    #banner .bg1 .banner-text p::before {
+        bottom: 17px;
+        left: -36px;
+    }
+    #banner .bg1 .banner-text p::after {
+        bottom: 18px;
+        right: -38px;
+    }
+    #about .about-text p {
+        line-height: 16px;
+        padding: 0;
+    }
+    #team {
+        padding-bottom: 0;
+    }
+    #classes {
+        padding-bottom: 50px;
+    }
+    #classes .class-item ul li {
+        width: 19.2%;
+        margin-right: 7px;
+        margin-bottom: 7px;
+    }
+    #brand {
+        padding-bottom: 40px;
+    }
+    footer .twitter-feed ul li {
+	margin-bottom: 10px;	
+    }
+    footer .footer-content .flicker-gal ul{
+       justify-content: space-around;
+       margin-bottom:7px !important;
+    }
+    footer .footer-contact ul li {
+        margin-bottom: 0px;
+    }
+    footer .footer-contact .footer-social ul {
+        margin-top: 10px;
+    }
+    footer .footer-content{
+        padding-bottom: 10px;
+    }
+}
+/*  large device */
